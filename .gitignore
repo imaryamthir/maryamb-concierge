@@ -1,0 +1,16 @@
+# Secrets — NEVER commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Media kept out of the repo (upload to YouTube instead)
+*.mp4
+
+# OS
+.DS_Store

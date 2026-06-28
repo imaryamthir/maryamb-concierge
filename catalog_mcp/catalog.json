@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "MB-LWN-001",
+      "name": "Noor Hand-Embroidered Lawn 3-Piece",
+      "category": "lawn",
+      "occasion": ["casual", "daywear", "eid"],
+      "color": ["ivory", "sage green"],
+      "fabric": "premium lawn",
+      "price_pkr": 8900,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": {"XS": 4, "S": 12, "M": 9, "L": 6, "XL": 0},
+      "description": "Lightweight lawn suit with resham thread embroidery on the neckline and daaman."
+    },
+    {
+      "id": "MB-FRM-014",
+      "name": "Gulposh Formal Chiffon Maxi",
+      "category": "formal",
+      "occasion": ["wedding", "party", "evening"],
+      "color": ["maroon", "antique gold"],
+      "fabric": "chiffon",
+      "price_pkr": 32500,
+      "sizes": ["S", "M", "L"],
+      "stock": {"S": 3, "M": 5, "L": 2},
+      "description": "Floor-length chiffon maxi with hand-applied gota and zardozi border work."
+    },
+    {
+      "id": "MB-PRT-007",
+      "name": "Saadgi Pret Cotton Kurta",
+      "category": "pret",
+      "occasion": ["casual", "workwear"],
+      "color": ["dusty pink", "white"],
+      "fabric": "cotton",
+      "price_pkr": 4200,
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "stock": {"XS": 8, "S": 15, "M": 20, "L": 14, "XL": 7, "XXL": 3},
+      "description": "Minimal straight-cut kurta with self-fabric buttons and side slits, easy to layer."
+    },
+    {
+      "id": "MB-BRD-022",
+      "name": "Shaadi Bridal Velvet Lehenga",
+      "category": "bridal",
+      "occasion": ["wedding", "bridal", "barat"],
+      "color": ["deep red", "gold"],
+      "fabric": "velvet",
+      "price_pkr": 185000,
+      "sizes": ["S", "M", "L"],
+      "stock": {"S": 1, "M": 2, "L": 1},
+      "description": "Heavy bridal lehenga in velvet with full dabka, kora and sequin hand-work."
+    },
+    {
+      "id": "MB-FRM-031",
+      "name": "Mehfil Organza Anarkali",
+      "category": "formal",
+      "occasion": ["party", "mehndi", "evening"],
+      "color": ["teal", "silver"],
+      "fabric": "organza",
+      "price_pkr": 27800,
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": {"XS": 2, "S": 6, "M": 4, "L": 3},
+      "description": "Flared organza anarkali with mirror-work bodice and a flowing dupatta."
+    },
+    {
+      "id": "MB-PRT-040",
+      "name": "Roz Pret Linen Co-ord",
+      "category": "pret",
+      "occasion": ["workwear", "daywear", "travel"],
+      "color": ["beige", "charcoal"],
+      "fabric": "linen",
+      "price_pkr": 6700,
+      "sizes": ["S", "M", "L", "XL"],
+      "stock": {"S": 10, "M": 11, "L": 9, "XL": 5},
+      "description": "Relaxed linen shirt-and-trouser co-ord set, breathable and wrinkle-friendly."
+    }
+  ]
+}
