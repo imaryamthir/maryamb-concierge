@@ -176,3 +176,36 @@ changing a line of agent code.
 - The guardrail regexes are a transparent first line of defence; pair them with
   a trained classifier for production.
 - Add ADK evaluation sets (`adk eval`) to track answer quality over time.
+
+## 11. Run the branded web app (live Layla demo)
+
+The `webapp/` folder serves a Maryam B.-branded chat site where Layla actually
+works, powered by the same multi-agent system. Your Gemini key stays on the
+server (loaded from `.env`) and is never exposed to the browser.
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env            # paste your GOOGLE_API_KEY into .env
+python -m webapp.server
+# open http://localhost:8000
+```
+
+The page includes one-tap demo prompts — including two attack buttons
+("prompt injection" and "data-theft attempt") so you can show the guardrails
+blocking them live on camera.
+
+### Make it a public link (optional)
+
+`localhost` is only reachable on your machine, so it can't be the submission's
+public link. Two options:
+
+1. **Submit the GitHub repo** as the public project link (allowed by the rules)
+   and show the live site in your video. Simplest.
+2. **Deploy to Cloud Run** for a real public URL. Build the container with the
+   web server as its entrypoint (change the `Dockerfile` CMD to
+   `uvicorn webapp.server:app --host 0.0.0.0 --port ${PORT}`), then:
+   ```bash
+   gcloud run deploy layla-concierge --source . --region us-central1 --allow-unauthenticated
+   ```
+   Set `GOOGLE_API_KEY` as a Cloud Run environment variable — never bake it into
+   the image.
