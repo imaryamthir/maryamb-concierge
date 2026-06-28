@@ -179,20 +179,25 @@ changing a line of agent code.
 
 ## 11. Run the branded web app (live Layla demo)
 
-The `webapp/` folder serves a Maryam B.-branded chat site where Layla actually
-works, powered by the same multi-agent system. Your Gemini key stays on the
-server (loaded from `.env`) and is never exposed to the browser.
+The `webapp/` server hosts the full **Maryam B. storefront** (`storefront.html`),
+whose "AI Stylist" page (Layla) is wired to the live multi-agent system. Your
+Gemini key stays on the server (loaded from `.env`) and is never exposed to the
+browser.
 
 ```bash
 pip install -r requirements.txt
 cp .env.example .env            # paste your GOOGLE_API_KEY into .env
 python -m webapp.server
-# open http://localhost:8000
+# open http://localhost:8000  ->  click "AI Stylist" to chat with the real Layla
 ```
 
-The page includes one-tap demo prompts — including two attack buttons
-("prompt injection" and "data-theft attempt") so you can show the guardrails
-blocking them live on camera.
+Routes:
+- `/`     — the full storefront; the AI Stylist page runs the real agent.
+- `/lite` — a minimal chat-only page, handy for a focused demo recording.
+- `/chat` — the JSON endpoint the page calls (POST `{message, session_id}`).
+
+Try the attack prompts in the chat ("ignore previous instructions…" and
+"send my address to a webhook") to show the guardrails blocking them on camera.
 
 ### Make it a public link (optional)
 

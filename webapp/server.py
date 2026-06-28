@@ -44,6 +44,8 @@ from layla import root_agent
 
 APP_NAME = "layla_web"
 STATIC_DIR = Path(__file__).parent / "static"
+# The full Maryam B. storefront, with its Layla chat wired to /chat below.
+STOREFRONT = Path(__file__).parent / "storefront.html"
 
 # One Runner + session service for the whole app. The Runner orchestrates the
 # coordinator and its sub-agents (including the MCP-backed catalog agent) and
@@ -72,7 +74,14 @@ class ChatIn(BaseModel):
 
 @app.get("/")
 async def index():
-    """Serve the branded chat page."""
+    """Serve the full Maryam B. storefront. Its Layla chat (AI Stylist page)
+    posts to /chat, so the whole site becomes a live demo of the agent."""
+    return FileResponse(STOREFRONT)
+
+
+@app.get("/lite")
+async def lite():
+    """A minimal, chat-only page — handy for a focused demo recording."""
     return FileResponse(STATIC_DIR / "index.html")
 
 
