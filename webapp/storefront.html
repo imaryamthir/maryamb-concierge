@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Maryam B — Luxury Pakistani Fashion</title>
-<link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
 <!-- Supabase SDK -->
@@ -331,7 +330,7 @@ body {
 }
 .hero-bg {
   width: 100%; height: 100%;
-  background: url("https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1600&q=85") center/cover no-repeat;
+  background: url("hero-main.jpg") center/cover no-repeat;
   display: flex; align-items: center; justify-content: center;
   position: relative;
 }
@@ -492,19 +491,19 @@ body {
 
 /* Collection background gradients (simulating fashion photography) */
 .bg-casual {
-  background: url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=85') center/cover no-repeat;
+  background: url('collection-casual.jpg') center/cover no-repeat;
 }
 .bg-party {
-  background: url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&q=85') center/cover no-repeat;
+  background: url('collection-party.jpg') center/cover no-repeat;
 }
 .bg-wedding {
-  background: url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=85') center/cover no-repeat;
+  background: url('collection-wedding.jpg') center/cover no-repeat;
 }
 .bg-bridal {
-  background: url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=800&q=85') center/cover no-repeat;
+  background: url('collection-bridal.jpg') center/cover no-repeat;
 }
 .bg-shoes {
-  background: url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=85') center/cover no-repeat;
+  background: url('collection-shoes.jpg') center/cover no-repeat;
 }
 
 /* ─── NEW ARRIVALS ───────────────────────────── */
@@ -829,7 +828,7 @@ body {
   min-height: 520px;
 }
 .story-visual {
-  background: url("https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=85") center/cover no-repeat;
+  background: url("collection-wedding.jpg") center/cover no-repeat;
   position: relative; overflow: hidden;
   display: flex; align-items: center; justify-content: center;
 }
@@ -1401,11 +1400,11 @@ footer {
           </div>
           <div class="mega-preview">
             <div class="mega-img">
-              <div style="background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=800&q=85') center/cover no-repeat;"></div>
+              <div style="background:url('collection-bridal.jpg') center/cover no-repeat;"></div>
               <p>Bridal</p>
             </div>
             <div class="mega-img">
-              <div style="background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=85') center/cover no-repeat;"></div>
+              <div style="background:url('collection-wedding.jpg') center/cover no-repeat;"></div>
               <p>Wedding</p>
             </div>
           </div>
@@ -1523,7 +1522,7 @@ footer {
     </div>
     <div class="hero-right">
       <div class="hero-bg" style="position:relative;">
-        <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=1600&q=85" alt="Maryam B Collection" style="width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;">
+        <img src="hero-main.jpg" alt="Maryam B Collection" style="width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;">
         <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(253,250,247,0.06) 0%,rgba(44,24,16,0.15) 100%);pointer-events:none"></div>
         <div class="petal" style="width:12px;height:12px;background:rgba(248,200,220,0.7);left:12%;animation-duration:9s;animation-delay:0s;position:absolute;z-index:3"></div>
         <div class="petal" style="width:8px;height:8px;background:rgba(201,168,76,0.5);left:80%;animation-duration:12s;animation-delay:2s;position:absolute;z-index:3"></div>
@@ -1571,7 +1570,7 @@ footer {
       <div class="collections-grid">
         <div class="coll-card" onclick="showCategory('bridal')">
           <div class="coll-card-bg">
-            <div class="coll-card-inner" style="background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=800&q=85') center/cover no-repeat;"></div>
+            <div class="coll-card-inner" style="background:url('collection-bridal.jpg') center/cover no-repeat;"></div>
             <div class="coll-card-overlay">
               <div class="coll-name">Bridal<br>Collection</div>
               <div class="coll-count">28 Pieces</div>
@@ -1581,7 +1580,7 @@ footer {
         </div>
         <div class="coll-card" onclick="showCategory('wedding')">
           <div class="coll-card-bg">
-            <div class="coll-card-inner" style="background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=85') center/cover no-repeat;"></div>
+            <div class="coll-card-inner" style="background:url('collection-wedding.jpg') center/cover no-repeat;"></div>
             <div class="coll-card-overlay">
               <div class="coll-name">Wedding Collection</div>
               <div class="coll-count">45 Pieces</div>
@@ -1591,7 +1590,7 @@ footer {
         </div>
         <div class="coll-card" onclick="showCategory('party')">
           <div class="coll-card-bg">
-            <div class="coll-card-inner" style="background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&q=85') center/cover no-repeat;"></div>
+            <div class="coll-card-inner" style="background:url('collection-party.jpg') center/cover no-repeat;"></div>
             <div class="coll-card-overlay">
               <div class="coll-name">Party Wear</div>
               <div class="coll-count">62 Pieces</div>
@@ -1601,7 +1600,7 @@ footer {
         </div>
         <div class="coll-card" onclick="showCategory('casual')">
           <div class="coll-card-bg">
-            <div class="coll-card-inner" style="background:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=85') center/cover no-repeat;"></div>
+            <div class="coll-card-inner" style="background:url('collection-casual.jpg') center/cover no-repeat;"></div>
             <div class="coll-card-overlay">
               <div class="coll-name">Casual Wear</div>
               <div class="coll-count">89 Pieces</div>
@@ -1611,7 +1610,7 @@ footer {
         </div>
         <div class="coll-card" onclick="showCategory('shoes')">
           <div class="coll-card-bg">
-            <div class="coll-card-inner" style="background:url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=85') center/cover no-repeat;"></div>
+            <div class="coll-card-inner" style="background:url('collection-shoes.jpg') center/cover no-repeat;"></div>
             <div class="coll-card-overlay">
               <div class="coll-name">Shoes & Bags</div>
               <div class="coll-count">34 Styles</div>
@@ -1638,7 +1637,7 @@ footer {
         <!-- Product 1 -->
         <div class="product-card">
           <div class="product-img">
-            <div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=600&q=80') center/cover no-repeat;"></div>
+            <div class="product-img-bg" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div>
             <span class="product-badge new">New</span>
             <button class="product-wish" aria-label="Wishlist">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -1661,7 +1660,7 @@ footer {
         <!-- Product 2 -->
         <div class="product-card">
           <div class="product-img">
-            <div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80') center/cover no-repeat;"></div>
+            <div class="product-img-bg" style="background:url('prod-party.jpg') center/cover no-repeat;"></div>
             <span class="product-badge">Best Seller</span>
             <button class="product-wish" aria-label="Wishlist">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -1686,7 +1685,7 @@ footer {
         <!-- Product 3 -->
         <div class="product-card">
           <div class="product-img">
-            <div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=600&q=80') center/cover no-repeat;"></div>
+            <div class="product-img-bg" style="background:url('prod-wedding.jpg') center/cover no-repeat;"></div>
             <span class="product-badge new">New</span>
             <button class="product-wish" aria-label="Wishlist">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -1709,7 +1708,7 @@ footer {
         <!-- Product 4 -->
         <div class="product-card">
           <div class="product-img">
-            <div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80') center/cover no-repeat;"></div>
+            <div class="product-img-bg" style="background:url('prod-pret.jpg') center/cover no-repeat;"></div>
             <span class="product-badge sale">Sale</span>
             <button class="product-wish" aria-label="Wishlist">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
@@ -1743,7 +1742,7 @@ footer {
       <div class="divider" style="background:linear-gradient(90deg,var(--gold-light),transparent)"></div>
       <div class="lookbook-grid">
         <div class="look-item">
-          <div class="look-bg" style="background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=700&q=80') center/cover no-repeat;"></div>
+          <div class="look-bg" style="background:url('collection-bridal.jpg') center/cover no-repeat;"></div>
           <div class="look-overlay">
             <div class="look-num">Look 01</div>
             <div class="look-title">The Bridal Reverie</div>
@@ -1751,7 +1750,7 @@ footer {
           </div>
         </div>
         <div class="look-item">
-          <div class="look-bg" style="background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=700&q=80') center/cover no-repeat;"></div>
+          <div class="look-bg" style="background:url('collection-wedding.jpg') center/cover no-repeat;"></div>
           <div class="look-overlay">
             <div class="look-num">Look 02</div>
             <div class="look-title">Midnight Glamour</div>
@@ -1759,7 +1758,7 @@ footer {
           </div>
         </div>
         <div class="look-item" style="grid-row:span 1">
-          <div class="look-bg" style="background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=700&q=80') center/cover no-repeat;"></div>
+          <div class="look-bg" style="background:url('collection-party.jpg') center/cover no-repeat;"></div>
           <div class="look-overlay">
             <div class="look-num">Look 03</div>
             <div class="look-title">Golden Heritage</div>
@@ -1775,7 +1774,7 @@ footer {
     <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;height:480px;gap:3px">
       <!-- Main editorial image -->
       <div style="position:relative;overflow:hidden;cursor:pointer" onclick="showPage('shop')">
-        <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=900&q=85"
+        <img src="prod-wedding.jpg"
              alt="Maryam B Editorial"
              style="width:100%;height:100%;object-fit:cover;object-position:center;transition:transform 0.7s cubic-bezier(0.22,1,0.36,1)"
              onmouseover="this.style.transform='scale(1.05)'"
@@ -1790,7 +1789,7 @@ footer {
       <!-- Right column: two stacked images -->
       <div style="display:flex;flex-direction:column;gap:3px">
         <div style="flex:1;position:relative;overflow:hidden;cursor:pointer" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=600&q=85"
+          <img src="prod-wedding.jpg"
                alt="Party Wear"
                style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1802,7 +1801,7 @@ footer {
           </div>
         </div>
         <div style="flex:1;position:relative;overflow:hidden;cursor:pointer" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=85"
+          <img src="prod-pret.jpg"
                alt="Casual Collection"
                style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1817,7 +1816,7 @@ footer {
       <!-- Third column: two stacked images -->
       <div style="display:flex;flex-direction:column;gap:3px">
         <div style="flex:1;position:relative;overflow:hidden;cursor:pointer" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=85"
+          <img src="prod-party.jpg"
                alt="Wedding Collection"
                style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1829,7 +1828,7 @@ footer {
           </div>
         </div>
         <div style="flex:1;position:relative;overflow:hidden;cursor:pointer" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=85"
+          <img src="prod-bridal.jpg"
                alt="Accessories"
                style="width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform 0.7s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1891,7 +1890,7 @@ footer {
           <div class="testi-stars">★★★★★</div>
           <p class="testi-quote">The bridal suit I ordered was absolutely breathtaking. Every bead was perfectly placed — I felt like royalty on my wedding day. Maryam B truly delivered beyond expectations!</p>
           <div class="testi-author">
-            <div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80') center/cover no-repeat;"></div>
+            <div class="testi-avatar" style="background:url('collection-casual.jpg') center/cover no-repeat;"></div>
             <div>
               <div class="testi-name">Ayesha Malik</div>
               <div class="testi-city">Lahore, Pakistan</div>
@@ -1902,7 +1901,7 @@ footer {
           <div class="testi-stars">★★★★★</div>
           <p class="testi-quote">The fabric quality is unmatched. I wore the Gulbahar suit to a wedding and received countless compliments. Will definitely be ordering again from Maryam B!</p>
           <div class="testi-author">
-            <div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&q=80') center/cover no-repeat;"></div>
+            <div class="testi-avatar" style="background:url('collection-wedding.jpg') center/cover no-repeat;"></div>
             <div>
               <div class="testi-name">Sana Iqbal</div>
               <div class="testi-city">Karachi, Pakistan</div>
@@ -1913,7 +1912,7 @@ footer {
           <div class="testi-stars">★★★★★</div>
           <p class="testi-quote">I ordered internationally and was nervous, but the packaging was so luxurious and the delivery was fast. The dress was even more beautiful in person. Highly recommend!</p>
           <div class="testi-author">
-            <div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&q=80') center/cover no-repeat;"></div>
+            <div class="testi-avatar" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div>
             <div>
               <div class="testi-name">Zara Ahmed</div>
               <div class="testi-city">Dubai, UAE</div>
@@ -1927,7 +1926,7 @@ footer {
   <!-- STORY TEASER -->
   <section class="story-teaser">
     <div class="story-visual" style="position:relative">
-      <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=900&q=85"
+      <img src="prod-party.jpg"
            alt="Maryam B Fashion"
            style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
       <div style="position:absolute;inset:0;background:rgba(44,24,16,0.35)"></div>
@@ -1961,7 +1960,7 @@ footer {
       <div style="display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto;gap:16px">
         <!-- Tall card -->
         <div style="grid-row:span 2;position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('product')">
-          <img src="https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80"
+          <img src="prod-wedding.jpg"
                alt="Bridal Look"
                style="width:100%;height:100%;object-fit:cover;min-height:500px;display:block;transition:transform 0.6s cubic-bezier(0.22,1,0.36,1)"
                onmouseover="this.style.transform='scale(1.05)'"
@@ -1975,7 +1974,7 @@ footer {
         </div>
         <!-- Normal cards -->
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('product')">
-          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80"
+          <img src="prod-party.jpg"
                alt="Party Look"
                style="width:100%;height:240px;object-fit:cover;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1987,7 +1986,7 @@ footer {
           </div>
         </div>
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('product')">
-          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80"
+          <img src="prod-bridal.jpg"
                alt="Wedding Look"
                style="width:100%;height:240px;object-fit:cover;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -1999,7 +1998,7 @@ footer {
           </div>
         </div>
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('product')">
-          <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+          <img src="prod-pret.jpg"
                alt="Luxury Look"
                style="width:100%;height:240px;object-fit:cover;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -2012,7 +2011,7 @@ footer {
         </div>
         <!-- Bottom row: 3 more cards -->
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('product')">
-          <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=500&q=85"
+          <img src="prod-pret.jpg"
                alt="Casual Look"
                style="width:100%;height:240px;object-fit:cover;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -2024,7 +2023,7 @@ footer {
           </div>
         </div>
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&q=85"
+          <img src="prod-bridal.jpg"
                alt="Shoes"
                style="width:100%;height:240px;object-fit:cover;object-position:center top;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -2036,7 +2035,7 @@ footer {
           </div>
         </div>
         <div style="position:relative;overflow:hidden;cursor:pointer;border-radius:2px" onclick="showPage('shop')">
-          <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=85"
+          <img src="collection-party.jpg"
                alt="Bags"
                style="width:100%;height:240px;object-fit:cover;display:block;transition:transform 0.6s"
                onmouseover="this.style.transform='scale(1.06)'"
@@ -2165,12 +2164,12 @@ footer {
         <p style="font-size:13px;color:var(--muted);font-weight:300">Tag us in your looks for a chance to be featured</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:4px">
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=400&q=80" alt="Look 1" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80" alt="Look 2" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=400&q=80" alt="Look 3" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=400&q=80" alt="Look 4" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80" alt="Look 5" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
-        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&q=80" alt="Look 6" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="collection-bridal.jpg" alt="Look 1" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="collection-party.jpg" alt="Look 2" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="collection-wedding.jpg" alt="Look 3" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="collection-casual.jpg" alt="Look 4" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="collection-shoes.jpg" alt="Look 5" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
+        <div style="aspect-ratio:1;overflow:hidden;cursor:pointer"><img src="prod-wedding.jpg" alt="Look 6" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;display:block" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'"></div>
       </div>
       <div style="text-align:center;margin-top:28px">
         <a href="https://instagram.com" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:13px 32px;border:1px solid var(--deep);color:var(--deep);text-decoration:none;font-size:11px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;transition:all 0.3s" onmouseover="this.style.background='var(--deep)';this.style.color='white'" onmouseout="this.style.background='transparent';this.style.color='var(--deep)'">
@@ -2265,12 +2264,12 @@ footer {
           </select>
         </div>
         <div class="products-grid" style="grid-template-columns:repeat(3,1fr)">
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Gulbahar Suit</div><div class="product-sub">Bridal · Chiffon</div><div class="product-price"><span class="price-current">PKR 18,500</span></div></div>
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Roshni Kurti</div><div class="product-sub">Wedding · Silk</div><div class="product-price"><span class="price-current">PKR 9,800</span><span class="price-old">PKR 12,000</span></div></div>
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Shabnam Lehenga</div><div class="product-sub">Party · Net</div><div class="product-price"><span class="price-current">PKR 24,900</span></div></div>
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge sale">Sale</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Bahaar Co-ord</div><div class="product-sub">Casual · Lawn</div><div class="product-price"><span class="price-current">PKR 5,400</span><span class="price-old">PKR 7,200</span></div></div>
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Noor Velvet Suit</div><div class="product-sub">Winter · Velvet</div><div class="product-price"><span class="price-current">PKR 14,200</span></div></div>
-          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Embossed Clutch</div><div class="product-sub">Bag · Leather</div><div class="product-price"><span class="price-current">PKR 4,800</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Gulbahar Suit</div><div class="product-sub">Bridal · Chiffon</div><div class="product-price"><span class="price-current">PKR 18,500</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-party.jpg') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Roshni Kurti</div><div class="product-sub">Wedding · Silk</div><div class="product-price"><span class="price-current">PKR 9,800</span><span class="price-old">PKR 12,000</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-wedding.jpg') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Shabnam Lehenga</div><div class="product-sub">Party · Net</div><div class="product-price"><span class="price-current">PKR 24,900</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-pret.jpg') center/cover no-repeat;"></div><span class="product-badge sale">Sale</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Bahaar Co-ord</div><div class="product-sub">Casual · Lawn</div><div class="product-price"><span class="price-current">PKR 5,400</span><span class="price-old">PKR 7,200</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('collection-shoes.jpg') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Noor Velvet Suit</div><div class="product-sub">Winter · Velvet</div><div class="product-price"><span class="price-current">PKR 14,200</span></div></div>
+          <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Embossed Clutch</div><div class="product-sub">Bag · Leather</div><div class="product-price"><span class="price-current">PKR 4,800</span></div></div>
         </div>
       </div>
     </div>
@@ -2397,7 +2396,7 @@ footer {
       
       <div style="margin-top:60px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden">
         <div style="position:relative;min-height:320px;overflow:hidden">
-          <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=700&q=85"
+          <img src="prod-wedding.jpg"
                alt="Maryam B Founder"
                style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block">
           <div style="position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,rgba(44,24,16,0.3))"></div>
@@ -2427,7 +2426,7 @@ footer {
           <div>
             <!-- Studio/brand image -->
             <div style="margin-bottom:28px;overflow:hidden;height:220px;position:relative;border-radius:2px">
-              <img src="https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=700&q=85"
+              <img src="collection-party.jpg"
                    alt="Maryam B Studio"
                    style="width:100%;height:100%;object-fit:cover;object-position:center 25%;display:block">
               <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(44,24,16,0.55))"></div>
@@ -2633,7 +2632,7 @@ footer {
     <div style="display:grid;grid-template-columns:240px 1fr;gap:32px;max-width:1000px;margin:0 auto">
       <div style="background:white;padding:24px;height:fit-content;border:1px solid var(--champagne)">
         <div style="text-align:center;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--champagne)">
-          <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--blush),var(--lavender));display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--deep);background:url('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80') center/cover no-repeat;"></div>
+          <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--blush),var(--lavender));display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--deep);background:url('prod-pret.jpg') center/cover no-repeat;"></div>
           <div id="accountName" style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;color:var(--deep)">Guest</div>
           <div id="accountEmail" style="font-size:11px;color:var(--muted);font-weight:300;margin-top:2px">Not logged in</div>
         </div>
@@ -2666,11 +2665,11 @@ footer {
     </div>
     <div class="products-grid">
       <div class="product-card">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" style="background:var(--blush)" aria-label="Remove from Wishlist"><svg viewBox="0 0 24 24" fill="var(--deep)" stroke="var(--deep)" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-wedding.jpg') center/cover no-repeat;"></div><button class="product-wish" style="background:var(--blush)" aria-label="Remove from Wishlist"><svg viewBox="0 0 24 24" fill="var(--deep)" stroke="var(--deep)" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Gulbahar Embroidered Suit</div><div class="product-sub">Bridal · Chiffon</div><div class="product-price"><span class="price-current">PKR 18,500</span></div>
       </div>
       <div class="product-card">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" style="background:var(--blush)" aria-label="Remove"><svg viewBox="0 0 24 24" fill="var(--deep)" stroke="var(--deep)" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-party.jpg') center/cover no-repeat;"></div><button class="product-wish" style="background:var(--blush)" aria-label="Remove"><svg viewBox="0 0 24 24" fill="var(--deep)" stroke="var(--deep)" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Shabnam Party Lehenga</div><div class="product-sub">Party Wear · Net</div><div class="product-price"><span class="price-current">PKR 24,900</span></div>
       </div>
     </div>
@@ -2908,7 +2907,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       <div>
         <div id="mainImg" style="aspect-ratio:3/4;margin-bottom:12px;position:relative;overflow:hidden;background:var(--champagne)">
           <!-- Real product photo -->
-          <img src="https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=800&q=85"
+          <img src="prod-bridal.jpg"
                alt="Gulbahar Embroidered Suit"
                style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform 0.5s cubic-bezier(0.22,1,0.36,1)"
                onmouseover="this.style.transform='scale(1.04)'"
@@ -2923,10 +2922,10 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         </div>
         <!-- Thumbnails -->
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px">
-          <div onclick="changeImg(this,'#EDD9F0,#C4A0C8,#9870A8')" style="aspect-ratio:3/4;background:url('https://images.unsplash.com/photo-1594463750939-ebb28c3f9f75?w=200&q=80') center/cover no-repeat;cursor:pointer;border:2px solid var(--deep)"></div>
-          <div onclick="changeImg(this,'#F8C8DC,#F0A0B8,#D870A0')" style="aspect-ratio:3/4;background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=200&q=80') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
-          <div onclick="changeImg(this,'#EDD9F0,#D4B0D8,#9870A8')" style="aspect-ratio:3/4;background:url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=200&q=80') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
-          <div onclick="changeImg(this,'#F5E6D3,#E0C090,#C09040')" style="aspect-ratio:3/4;background:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=200&q=80') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
+          <div onclick="changeImg(this,'#EDD9F0,#C4A0C8,#9870A8')" style="aspect-ratio:3/4;background:url('prod-bridal.jpg') center/cover no-repeat;cursor:pointer;border:2px solid var(--deep)"></div>
+          <div onclick="changeImg(this,'#F8C8DC,#F0A0B8,#D870A0')" style="aspect-ratio:3/4;background:url('prod-wedding.jpg') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
+          <div onclick="changeImg(this,'#EDD9F0,#D4B0D8,#9870A8')" style="aspect-ratio:3/4;background:url('prod-party.jpg') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
+          <div onclick="changeImg(this,'#F5E6D3,#E0C090,#C09040')" style="aspect-ratio:3/4;background:url('prod-pret.jpg') center/cover no-repeat;cursor:pointer;border:2px solid transparent;transition:border-color 0.2s"></div>
         </div>
       </div>
 
@@ -3035,7 +3034,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       </div>
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
         <div style="text-align:center">
-          <div style="aspect-ratio:1;background:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&q=80') center/cover no-repeat;margin-bottom:14px;position:relative;">
+          <div style="aspect-ratio:1;background:url('prod-pret.jpg') center/cover no-repeat;margin-bottom:14px;position:relative;">
             
             <div style="position:absolute;top:10px;left:10px;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;background:var(--champagne);color:var(--muted);padding:4px 8px">Match</div>
           </div>
@@ -3045,7 +3044,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
           <button onclick="openCart()" style="margin-top:10px;padding:8px 20px;background:transparent;border:1px solid var(--deep);color:var(--deep);font-size:10px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;transition:all 0.2s" onmouseover="this.style.background='var(--deep)';this.style.color='white'" onmouseout="this.style.background='transparent';this.style.color='var(--deep)'">Add to Cart</button>
         </div>
         <div style="text-align:center">
-          <div style="aspect-ratio:1;background:url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80') center/cover no-repeat;margin-bottom:14px;position:relative;">
+          <div style="aspect-ratio:1;background:url('collection-party.jpg') center/cover no-repeat;margin-bottom:14px;position:relative;">
             
             <div style="position:absolute;top:10px;left:10px;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;background:var(--champagne);color:var(--muted);padding:4px 8px">Match</div>
           </div>
@@ -3055,7 +3054,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
           <button onclick="openCart()" style="margin-top:10px;padding:8px 20px;background:transparent;border:1px solid var(--deep);color:var(--deep);font-size:10px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;transition:all 0.2s" onmouseover="this.style.background='var(--deep)';this.style.color='white'" onmouseout="this.style.background='transparent';this.style.color='var(--deep)'">Add to Cart</button>
         </div>
         <div style="text-align:center">
-          <div style="aspect-ratio:1;background:url('https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&q=80') center/cover no-repeat;margin-bottom:14px;position:relative;">
+          <div style="aspect-ratio:1;background:url('collection-wedding.jpg') center/cover no-repeat;margin-bottom:14px;position:relative;">
             
             <div style="position:absolute;top:10px;left:10px;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;background:var(--champagne);color:var(--muted);padding:4px 8px">Match</div>
           </div>
@@ -3085,17 +3084,17 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         <div class="testi-card">
           <div class="testi-stars">★★★★★</div>
           <p class="testi-quote">Received so many compliments at my sister's nikah. The fabric is incredibly soft and the embroidery is even more beautiful in person!</p>
-          <div class="testi-author"><div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80') center/cover no-repeat;"></div><div><div class="testi-name">Fatima Zahra</div><div class="testi-city">Karachi · Verified Purchase</div></div></div>
+          <div class="testi-author"><div class="testi-avatar" style="background:url('prod-pret.jpg') center/cover no-repeat;"></div><div><div class="testi-name">Fatima Zahra</div><div class="testi-city">Karachi · Verified Purchase</div></div></div>
         </div>
         <div class="testi-card">
           <div class="testi-stars">★★★★★</div>
           <p class="testi-quote">I ordered the Lavender Mist and it is absolutely gorgeous. Fast delivery, beautiful packaging, and the quality is like a designer brand!</p>
-          <div class="testi-author"><div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&q=85') center/cover no-repeat;"></div><div><div class="testi-name">Hina Butt</div><div class="testi-city">Lahore · Verified Purchase</div></div></div>
+          <div class="testi-author"><div class="testi-avatar" style="background:url('collection-party.jpg') center/cover no-repeat;"></div><div><div class="testi-name">Hina Butt</div><div class="testi-city">Lahore · Verified Purchase</div></div></div>
         </div>
         <div class="testi-card">
           <div class="testi-stars">★★★★☆</div>
           <p class="testi-quote">Stunning piece, truly luxurious. Would highly recommend the size guide as I needed to go one size up. Customer support was very helpful!</p>
-          <div class="testi-author"><div class="testi-avatar" style="background:url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=85') center/cover no-repeat;"></div><div><div class="testi-name">Maria Siddiqui</div><div class="testi-city">Islamabad · Verified Purchase</div></div></div>
+          <div class="testi-author"><div class="testi-avatar" style="background:url('collection-casual.jpg') center/cover no-repeat;"></div><div><div class="testi-name">Maria Siddiqui</div><div class="testi-city">Islamabad · Verified Purchase</div></div></div>
         </div>
       </div>
     </div>
@@ -3115,22 +3114,22 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   <div class="container" style="padding:56px 24px 80px">
     <div class="products-grid">
       <div class="product-card" onclick="showPage('product')">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--gold);color:var(--deep)">#1 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-wedding.jpg') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--gold);color:var(--deep)">#1 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Gulbahar Embroidered Suit</div><div class="product-sub">Bridal · Chiffon · 3-Piece</div><div class="product-price"><span class="price-current">PKR 18,500</span><span class="price-old">PKR 22,000</span></div>
         <div style="font-size:11px;color:var(--muted);margin-top:6px">⭐ 4.9 (47 reviews)</div>
       </div>
       <div class="product-card">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--rose-gold)">#2 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-party.jpg') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--rose-gold)">#2 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Shabnam Party Lehenga</div><div class="product-sub">Party Wear · Net + Velvet</div><div class="product-price"><span class="price-current">PKR 24,900</span></div>
         <div style="font-size:11px;color:var(--muted);margin-top:6px">⭐ 4.8 (38 reviews)</div>
       </div>
       <div class="product-card">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--deep)">#3 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--deep)">#3 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Roshni Formal Kurti</div><div class="product-sub">Wedding Collection · Silk Blend</div><div class="product-price"><span class="price-current">PKR 9,800</span><span class="price-old">PKR 12,000</span></div>
         <div style="font-size:11px;color:var(--muted);margin-top:6px">⭐ 4.9 (62 reviews)</div>
       </div>
       <div class="product-card">
-        <div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--blush-deep)">#4 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
+        <div class="product-img"><div class="product-img-bg" style="background:url('prod-pret.jpg') center/cover no-repeat;"></div><span class="product-badge" style="background:var(--blush-deep)">#4 Best Seller</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div>
         <div class="product-name">Noor Velvet Winter Suit</div><div class="product-sub">Luxury Collection · Pure Velvet</div><div class="product-price"><span class="price-current">PKR 14,200</span></div>
         <div style="font-size:11px;color:var(--muted);margin-top:6px">⭐ 4.7 (29 reviews)</div>
       </div>
@@ -3169,7 +3168,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   <div class="container" style="padding:56px 24px 80px">
     <!-- Feature banner -->
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:56px;height:400px">
-      <div style="background:url('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:36px;cursor:pointer">
+      <div style="background:url('prod-pret.jpg') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:36px;cursor:pointer">
         <div style="position:absolute;top:24px;right:24px;font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-light);border:1px solid rgba(201,168,76,0.4);padding:6px 14px">Sold Out</div>
         <div style="font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-light);margin-bottom:8px">Limited · 12 Pieces Only</div>
         <div style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;color:var(--pearl);margin-bottom:6px">The Midnight Empress</div>
@@ -3177,21 +3176,21 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         <div style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:600;color:var(--gold-light)">PKR 45,000</div>
       </div>
       <div style="display:grid;grid-template-rows:1fr 1fr;gap:4px">
-        <div style="background:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;cursor:pointer">
+        <div style="background:url('prod-bridal.jpg') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;cursor:pointer">
           <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:var(--deep);margin-bottom:4px">Gulnaar Silk Set</div>
           <div style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--deep)">PKR 28,500</div>
         </div>
-        <div style="background:url('https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;cursor:pointer">
+        <div style="background:url('prod-wedding.jpg') center/cover no-repeat;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;cursor:pointer">
           <div style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:500;color:var(--deep);margin-bottom:4px">Yasmine Chiffon Drape</div>
           <div style="font-family:'Cormorant Garamond',serif;font-size:1.05rem;font-weight:600;color:var(--deep)">PKR 22,000</div>
         </div>
       </div>
     </div>
     <div class="products-grid">
-      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Bahar Linen Co-ord</div><div class="product-sub">Luxury Pret · Italian Linen</div><div class="product-price"><span class="price-current">PKR 16,500</span></div></div>
-      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Raat ki Rani Gown</div><div class="product-sub">Luxury Pret · Pure Silk</div><div class="product-price"><span class="price-current">PKR 32,000</span></div></div>
-      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Mahrukh Embellished Suit</div><div class="product-sub">Luxury Pret · Organza</div><div class="product-price"><span class="price-current">PKR 26,800</span></div></div>
-      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Noor-e-Chashm Suit</div><div class="product-sub">Luxury Pret · Jamawar</div><div class="product-price"><span class="price-current">PKR 19,500</span></div></div>
+      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-bridal.jpg') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Bahar Linen Co-ord</div><div class="product-sub">Luxury Pret · Italian Linen</div><div class="product-price"><span class="price-current">PKR 16,500</span></div></div>
+      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-pret.jpg') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Raat ki Rani Gown</div><div class="product-sub">Luxury Pret · Pure Silk</div><div class="product-price"><span class="price-current">PKR 32,000</span></div></div>
+      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-wedding.jpg') center/cover no-repeat;"></div><span class="product-badge new">New</span><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Mahrukh Embellished Suit</div><div class="product-sub">Luxury Pret · Organza</div><div class="product-price"><span class="price-current">PKR 26,800</span></div></div>
+      <div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:url('prod-shoes.jpg') center/cover no-repeat;"></div><button class="product-wish" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button><div class="product-actions"><button class="product-add-btn">Add to Cart</button></div></div><div class="product-name">Noor-e-Chashm Suit</div><div class="product-sub">Luxury Pret · Jamawar</div><div class="product-price"><span class="price-current">PKR 19,500</span></div></div>
     </div>
   </div>
 </div>
@@ -3397,10 +3396,10 @@ function selectSize(el, name) {
 }
 // Map gradient keys → real Unsplash URLs for product detail thumbnails
 const imgMap = {
-  '#EDD9F0,#C4A0C8,#9870A8': 'https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80',
-  '#F8C8DC,#F0A0B8,#D870A0': 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80',
-  '#EDD9F0,#D4B0D8,#9870A8': 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80',
-  '#F5E6D3,#E0C090,#C09040': 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80',
+  '#EDD9F0,#C4A0C8,#9870A8': 'prod-wedding.jpg',
+  '#F8C8DC,#F0A0B8,#D870A0': 'prod-party.jpg',
+  '#EDD9F0,#D4B0D8,#9870A8': 'prod-bridal.jpg',
+  '#F5E6D3,#E0C090,#C09040': 'prod-shoes.jpg',
 };
 function changeImg(el, grad) {
   const mainImg = document.getElementById('mainImg');
@@ -3486,7 +3485,7 @@ async function loadUserOrders(session) {
     if (order.items && order.items.length > 1) {
       firstItemName += ` + ${order.items.length - 1} more items`;
     }
-    let firstItemImg = order.items && order.items[0] ? order.items[0].image : 'https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80';
+    let firstItemImg = order.items && order.items[0] ? order.items[0].image : 'prod-wedding.jpg';
     let dateStr = new Date(order.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     let statusColor = order.status === 'Delivered' ? 'var(--rose-gold)' : '#27AE60';
     let statusDot = order.status === 'Delivered' ? '✓' : '●';
@@ -3700,7 +3699,7 @@ document.addEventListener('click', function(e) {
       } else {
         const priceStr = card.querySelector('.price-current') ? card.querySelector('.price-current').textContent.replace(/[^0-9]/g, '') : "15000";
         const imgEl = card.querySelector('.product-img-bg') || card.querySelector('img');
-        let bgImg = 'https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80';
+        let bgImg = 'prod-wedding.jpg';
         if (imgEl && imgEl.style.backgroundImage) {
           bgImg = imgEl.style.backgroundImage.replace(/url\(['"]?(.*?)['"]?\)/i, '$1');
         } else if (imgEl && imgEl.src) {
@@ -3720,7 +3719,7 @@ document.addEventListener('click', function(e) {
         id: Date.now() + 1,
         name: pdName,
         price: 18500,
-        image: 'https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80'
+        image: 'prod-wedding.jpg'
       });
     }
   }
@@ -3744,10 +3743,10 @@ document.querySelectorAll('[onclick*="showPage(\'shop\')"]').forEach(el => {
 });
 // ─── PRODUCT CATALOG & SEEDING ────────
 const staticProducts = [
-  { id: 1, name: "Gulbahar Embroidered Suit", sub_category: "Bridal · Chiffon · 3-Piece", category: "bridal", price: 18500, old_price: 22000, image: "https://images.unsplash.com/photo-1631286849680-5e1a0ccd3393?w=600&q=80", badge: "#1 Best Seller", rating: 4.9, reviews: 47 },
-  { id: 2, name: "Shabnam Party Lehenga", sub_category: "Party Wear · Net + Velvet", category: "party", price: 24900, old_price: null, image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80", badge: "#2 Best Seller", rating: 4.8, reviews: 38 },
-  { id: 3, name: "Roshni Formal Kurti", sub_category: "Wedding Collection · Silk Blend", category: "wedding", price: 9800, old_price: 12000, image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80", badge: "#3 Best Seller", rating: 4.9, reviews: 62 },
-  { id: 4, name: "Noor Velvet Winter Suit", sub_category: "Luxury Collection · Pure Velvet", category: "luxury", price: 14200, old_price: null, image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80", badge: "#4 Best Seller", rating: 4.7, reviews: 29 }
+  { id: 1, name: "Gulbahar Embroidered Suit", sub_category: "Bridal · Chiffon · 3-Piece", category: "bridal", price: 18500, old_price: 22000, image: "prod-wedding.jpg", badge: "#1 Best Seller", rating: 4.9, reviews: 47 },
+  { id: 2, name: "Shabnam Party Lehenga", sub_category: "Party Wear · Net + Velvet", category: "party", price: 24900, old_price: null, image: "prod-party.jpg", badge: "#2 Best Seller", rating: 4.8, reviews: 38 },
+  { id: 3, name: "Roshni Formal Kurti", sub_category: "Wedding Collection · Silk Blend", category: "wedding", price: 9800, old_price: 12000, image: "prod-bridal.jpg", badge: "#3 Best Seller", rating: 4.9, reviews: 62 },
+  { id: 4, name: "Noor Velvet Winter Suit", sub_category: "Luxury Collection · Pure Velvet", category: "luxury", price: 14200, old_price: null, image: "prod-pret.jpg", badge: "#4 Best Seller", rating: 4.7, reviews: 29 }
 ];
 
 let globalProducts = [];

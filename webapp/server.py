@@ -79,6 +79,20 @@ async def index():
     return FileResponse(STOREFRONT)
 
 
+@app.get("/{filename}")
+async def serve_image(filename: str):
+    """Serve image files from the webapp directory."""
+    # Only serve image files with safe extensions
+    allowed_extensions = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"}
+    if not any(filename.lower().endswith(ext) for ext in allowed_extensions):
+        return JSONResponse({"error": "Not found"}, status_code=404)
+    
+    file_path = Path(__file__).parent / filename
+    if file_path.exists() and file_path.is_file():
+        return FileResponse(file_path)
+    return JSONResponse({"error": "Not found"}, status_code=404)
+
+
 @app.get("/lite")
 async def lite():
     """A minimal, chat-only page — handy for a focused demo recording."""
